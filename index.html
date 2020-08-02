@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pradyumn's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="icon" type="image/jfif" href="img/favicon.jpg">
+	
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/solid.min.css">
+	<script src="botstrap.js"></script>
+	<script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<style>
+		.carousel-item{
+			height:95%;
+			/*width:auto;*/
+  			position:relative;
+  			overflow:hidden;
+  			
+		}
+		img.d-block.w-100{
+			height:600px;
+			width:auto;
+		}
+		.nav-item{
+			margin:0.5rem;
+		}
+
+		.fab {
+		  padding: 10px;
+		  font-size: 30px;
+		  /*width:40px;*/
+		  /*height:auto;*/
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 5px 2px;
+		  border-radius: 50%;
+		}
+
+		.fab:hover {
+		    /*color:#3700b3;*/
+		    opacity:0.9;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+		.fa-twitter {
+		  background: #55ACEE;
+		  color: white;
+		}
+
+		.fa-google {
+		  background: #dd4b39;
+		  color: white;
+		}
+
+		.fa-linkedin {
+		  background: #007bb5;
+		  color: white;
+		}
+	
+
+		.fa-instagram {
+		  background: #125688;
+		  color: white;
+		}
+
+		.fa-github{
+			background:#000000;
+			color:white;
+		}
+		.software-skill-inline {
+		    display: inline-block;
+		    margin-right: 20px;
+		    margin-bottom: 0px;
+		}	
+		.dev-icons {
+		    padding-left: 0;
+		    padding-bottom: 0;
+		    list-style: none;
+		    /*font-size: 3rem;*/
+		    margin-bottom: 0;
+		    margin-top: 0;
+
+		    /*text-align: center;*/
+		}
+
+
+		}
+
+	</style>
+</head>
+
+
+<body style="background-color: #e6ffff;">
+<!-- sticky navbar -->
+<a id="home"></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="banner">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+          <<img src="img/name.png" style="max-width:35%;height:auto;" alt="Portfolio">/>
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive" >
+      <ul class="navbar-nav ml-auto" style="position: sticky;  top: 0;">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Skills">Skills
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/pradyumngupta?tab=repositories">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#photography">Photography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#organisations">Organisations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About Me</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--left jumbotron, right animated image  -->
+<div class="container" style="margin:6rem;">
+	<div class="row">
+    	<div class="col-xs col-sm col-md">		
+			<div class="jumbotron" style="background:transparent;margin-top:3rem;">
+			  <h1 class="display-4 " style="font-family: 'Montserrat', sans-serif;" >Hey!<br> I'm Pradyumn</h1>
+			  <p class="lead" style="font-family: 'Montserrat', sans-serif;">A programmer learning to code, build websites, click photos and clear SSB.</p>
+			  <hr class="my-4">
+			  <div class="container">
+			  <a href="https://github.com/pradyumngupta" class="fab fa-github"></a>
+			  	<a href="https://www.linkedin.com/in/pradyumn-gupta-abb291170/" class="fab fa-linkedin"></a>
+			  	<a href="mailto:pradyumngupta18@gmail.com" class="fab fa-google"></a>
+			  	<a href="https://twitter.com/mr_pradyumn" class="fab fa-twitter"></a>
+				<a href="https://www.instagram.com/mr_pradyumn/" class="fab fa-instagram"></a>
+				</div>
+			  <p style="margin-top: 1rem;">
+			    <a class="btn btn-primary btn-sm" style="background-color:#3700b3;margin:1rem;font-family: 'Montserrat', sans-serif;" href="#About" role="button">CONTACT ME</a>
+			    <a class="btn btn-primary btn-sm" style="background-color:#3700b3;font-family: 'Montserrat', sans-serif;" href="https://drive.google.com/file/d/1wd0t3XToDy-GlSCNG5BYjRRhZ7BcY9Zv/view?usp=sharing" role="button">SEE MY RESUME</a>
+			  </p>
+			</div>
+		</div>
+		<div class="col-xs col-sm col-md">
+			<img src="img/manOnTable.svg" style="max-width:120%;height:auto;">
+		</div>
+
+	</div>
+	<a id="Skills"></a>
+</div>
+
+
+
+<!-- left animated img, right icons tray -->
+
+<div class="container" style="margin-top:4rem;">	
+	<div class="row">
+		<div class="col-xs col-sm col-md">
+			<img src="img/developer.svg" style="max-width:110%;height:auto;">
+		</div>
+		<div class="col-xs col-sm col-md">
+			<h3 class="display-4">What I do</h3>
+			<p class="lead" >Programmer exploring various tech and tools.</p>
+			<!-- icons of programming languages -->
+			<div class="container">
+				<ul class="dev-icons">
+					<li class="software-skill-inline" name="html-5">
+						<i class="fab fa-html5" style="padding: 0;font-size:40px;"></i>
+						<p class="small text-muted">html-5</p>
+					</li>
+					<li class="software-skill-inline" name="Css3">
+						<i class="fab fa-css3" style="padding: 0;font-size:40px;"></i>
+						<p class="small text-muted">CSS</p>
+					</li>
+					<li class="software-skill-inline" name="Adobe Photoshop">
+						<i class="fab fa-adobe" style="padding: 0;font-size:40px;"></i>
+						<p class="small text-muted">Adobe Photoshop</p>
+					</li>
+					<li class="software-skill-inline" name="html-5">
+						<i class="fab fa-js" style="padding: 0;font-size:40px;"></i>
+						<p class="small text-muted">Java Script</p>
+					</li>
+					<li class="software-skill-inline" name="Python">
+						<i class="fab fa-python" style="padding: 0;font-size:40px;"></i>
+						<p class="small text-muted">Python</p>
+					</li>
+					<li class="software-skill-inline" name="SQL">
+						<i class="fas fa-database" style="padding: 0;font-size:40px;"></i>
+						<p class="small text-muted">SQL</p>
+					</li>
+					<li class="software-skill-inline" name="C/C++">
+						<i class="fas fa-code" style="padding: 0;font-size:40px;"></i>
+						<p class="small text-muted">C/C++</p>
+					</li>
+				</ul>
+					
+			</div>	
+		
+	</div></div><a id="photography"></a>
+
+</div>
+
+<!-- projects, github integration -->
+
+
+
+
+
+
+
+<!-- photo gallery -->
+
+<div class="container" style="margin-top:12rem;margin-bottom: 2rem;">
+
+	
+	<h3 class="display-4">Photography</h3>
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	  	<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+	  	<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="img/hawa.jpg" alt="First slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/locket.jpeg" alt="Second slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/sky.jpeg" alt="Third slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/sunset.jpeg" alt="Third slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/drop.jpeg" alt="Third slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/eyes.jpeg" alt="Third slide">
+	    </div>
+
+
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<a id="organisations"></a>
+</div>
+
+<!-- cards -->
+
+<div class="container" style="margin-top:4rem;">	
+	<h3 class="display-4">Volunteer Experience</h3>
+	<div class="row">
+		<div class="col-xs col-sm col-md">
+			<div class="card" style="width: 18rem;">
+			  
+			  <img class="card-img-top" src="img/Rtist.jpg" alt="Card image cap" style="width:50%;height:auto;align-self: center;"">
+			  <div class="card-body">
+			    <h5 class="card-title">R-TIST</h5>
+			    <p class="card-text">Official robotics club of NITJ, we organise workshops on arduino and embedded systems, i am involved here with programming concepts.</p>
+			  </div>
+			  
+			  <div class="card-body">
+			    <a href="https://www.nitj.ac.in/rtist/" class="card-link">Website</a>
+			    
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs col-sm col-md">
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="img/netra.png" alt="Card image cap" style="width:50%;height:auto;align-self: center;">
+			  <div class="card-body">
+			    <h5 class="card-title">NETRA</h5>
+			    <p class="card-text">Official photography Club of NITJ, group of students having it as hobby, we also cover all major events inside the institute. </p>
+			  </div>
+			  
+			  <div class="card-body">
+			    <a href="https://www.instagram.com/nitj_photography_club/" class="card-link">Insta Page</a>
+			    
+			  </div>
+			</div>
+			
+		</div>
+		<div class="col-xs col-sm col-md">
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="img/scout.png" alt="Card image cap" style="width:50%;height:auto;align-self:center;">
+			  <div class="card-body">
+			    <h5 class="card-title">Scout & Guide</h5>
+			    <p class="card-text">A non-profit, non-political, educational organisation working for social service, teaching various skills with regular evaluation. I'm a Rajya Puraskar Scout, highest award a scout can earn at State level. </p>
+			  </div>
+			  
+			  
+			</div>
+		</div>
+	</div>
+<!-- Social Service -->
+<div class="container" style="margin-top:2rem">		
+	<div class="row">	
+		<div class="col-xs col-sm col-md col-lg">
+			<h4 style="font-family: 'Montserrat', sans-serif;">SOCIAL SERVICE :</h4>
+		</div>
+		<div class="col-xs col-sm col-md col-lg"> 
+			<a href="https://www.smilefoundationindia.org/">
+				<img src="img/smile.png"  style="height:50px;width:auto;">
+			</a>
+		</div>
+		<div class="col-xs col-sm col-md col-lg"> 
+			<a href="https://www.helpageindia.org/">
+				<img src="img/HelpAge.jpg"  style="height:50px;width:auto;">
+			</a>
+		</div>
+		<div class="col-xs col-sm col-md col-lg"> 
+			<a href="https://www.globalcancer.org/">
+				<img src="img/cancer.png"  style="height:50px;width:auto;">
+			</a>
+		</div>
+	
+
+	</div>	
+		<p class="lead" style="text-align: center;margin-top: 1rem;">Please Support them for a good cause.🙏</p>
+</div>	
+</div>
+
+
+<!-- left paragraph, right image round -->
+<a id="About"></a>
+<div class="container" style="margin-top: 10rem;">
+	<h3 class="display-4">Hey There!</h3>
+		<div class="row">
+			<div class="col-xs col-sm col-md">
+				<!-- about me -->
+				<p class="lead">I am CSE Pre-Final Year Student at NIT Jalandhar<br>Completed Schooling from Kendriya Vidyalaya and <br>A hardcore Defence Aspirant.<br>Besides coding in C++ my primary language,I find Machine Learning intresting.</p>
+				<p class="lead">
+					<img src="img/location.png" style="height:25px;width=auto;">Jalandhar, India</p>
+				<!-- all social media accounts -->
+				
+
+			</div>
+			
+			
+			<div class="col-xs col-sm col-md">
+				<!-- dp -->
+				<img src="img/dp.png" style="width:350px;height:auto; border-radius:10px;">
+			</div>
+			<div class="container">
+			  	<a href="https://github.com/pradyumngupta" class="fab fa-github"></a>
+			  	<a href="https://www.linkedin.com/in/pradyumn-gupta-abb291170/" class="fab fa-linkedin"></a>
+			  	<a href="mailto:pradyumngupta18@gmail.com" class="fab fa-google"></a>
+			  	<a href="https://twitter.com/mr_pradyumn" class="fab fa-twitter"></a>
+				<a href="https://www.instagram.com/mr_pradyumn/" class="fab fa-instagram"></a>
+			</div>
+		</div>
+</div>
+
+
+<div class="container" style="margin-top: 5rem;">	
+	<p class="lead" style="text-align: center;">Made with ❤️ by Pradyumn Gupta</p>
+</div>	
+
+</body>
+</html>
